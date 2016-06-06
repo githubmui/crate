@@ -42,6 +42,9 @@ branches:
 
 
 addons:
+  apt:
+    packages:
+      - python3.2
   coverity_scan:
     project:
       name: "crate/crate"
